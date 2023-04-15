@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>uploadquestion</servlet-name>
+  	<display-name>uploadquestion</display-name>
+  	<description></description>
+  	<servlet-class>com.startuporg.controller.uploadquestion</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>moveservlet</servlet-name>
+  	<display-name>moveservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.startuporg.controller.moveservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>uploadquestiondata</servlet-name>
+  	<display-name>uploadquestiondata</display-name>
+  	<description></description>
+  	<servlet-class>com.startuporg.controller.uploadquestiondata</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updateaudit</servlet-name>
+  	<display-name>updateaudit</display-name>
+  	<description></description>
+  	<servlet-class>com.startuporg.controller.updateaudit</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updateauditrow</servlet-name>
+  	<display-name>updateauditrow</display-name>
+  	<description></description>
+  	<servlet-class>com.startuporg.controller.updateauditrow</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>uploadquestion</servlet-name>
+  	<url-pattern>/uploadquestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>moveservlet</servlet-name>
+  	<url-pattern>/moveservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>uploadquestiondata</servlet-name>
+  	<url-pattern>/uploadquestiondata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updateaudit</servlet-name>
+  	<url-pattern>/updateaudit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updateauditrow</servlet-name>
+  	<url-pattern>/updateauditrow</url-pattern>
+  </servlet-mapping>
+</web-app>
